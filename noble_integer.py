@@ -8,6 +8,6 @@ def has_noble_integers(nums_array: list) -> int:
 
 try:
     num_array = list(map(int, input("Enter integers separated by space : ").split()))
-    print("The output array is : ", has_noble_integers(num_array))
+    print("The output is : ", has_noble_integers(num_array))
 except ValueError:
     print("Invalid Input, Please enter only integer")
